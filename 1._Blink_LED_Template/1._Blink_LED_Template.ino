@@ -13,12 +13,11 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   //1. Turn on red LED
-  digitalWrite(red_led, HIGH);
+  
   //2. Wait for x amount of seconds
-  delay(1000); //1 second delay
+  
   //3. Turn off red LED
-  digitalWrite(red_led, LOW);
+  
   //4. Wait for x amount of seconds
-  delay(1000); //1 second delay
 
 }

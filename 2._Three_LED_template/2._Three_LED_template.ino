@@ -1,7 +1,7 @@
 #include <mathstronauts_arduino_library.h>
-int red_led = 3;
-int yellow_led = 4;
-int green_led = 5;
+int red_led = 2;
+int yellow_led = 3;
+int green_led = 4;
 
 void setup() {
   // put your setup code here, to run once:
@@ -13,21 +13,21 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   //1. Red LED ON; Yellow LED OFF; Green LED OFF
-  digitalWrite(red_led,HIGH);
-  digitalWrite(yellow_led,LOW);
-  digitalWrite(green_led,LOW);
+  digitalWrite(,);
+  digitalWrite(,);
+  digitalWrite(,);
   //2. Wait for x amount of seconds
-  delay(1000);//1 second delay
+  delay();
   //3. Red LED OFF; Yellow LED ON; Green LED OFF
-  digitalWrite(red_led,LOW);
-  digitalWrite(yellow_led,HIGH);
-  digitalWrite(green_led,LOW);
+  digitalWrite(,);
+  digitalWrite(,);
+  digitalWrite(,);
   //4. Wait for x amount of seconds
-  delay(1000);//1 second delay
+  delay();
   //5. Red LED OFF; Yellow LED OFF; Green LED ON
-  digitalWrite(red_led,LOW);
-  digitalWrite(yellow_led,LOW);
-  digitalWrite(green_led,HIGH);
+  digitalWrite(,);
+  digitalWrite(,);
+  digitalWrite(,);
   //6. Wait for x amount of seconds
-  delay(1000);//1 second delay
+  delay();
 }
