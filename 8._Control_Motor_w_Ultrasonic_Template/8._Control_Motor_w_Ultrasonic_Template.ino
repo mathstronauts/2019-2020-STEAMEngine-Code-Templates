@@ -11,16 +11,15 @@ void setup() {
 
 void loop() {
   //1. Read distance from ultrasonic
-  float distance = ultrasonicDistance(trig, echo);
   
   //2. Check if distance is less than x
   if(){
     //Turn on motor
-    digitalWrite(,);
-  }
-  else{
-    // Turn off motor
-    digitalWrite(,);
     
   }
+  else{
+    // Turn off motor 
+    
+  }
+  delay(100);
 }

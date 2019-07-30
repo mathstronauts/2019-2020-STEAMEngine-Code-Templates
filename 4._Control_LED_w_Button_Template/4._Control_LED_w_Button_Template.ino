@@ -10,15 +10,16 @@ void setup() {
 
 void loop() {
   //1. Read the state of the button
-  int button state = digitalRead();
+  int button_state = digitalRead();
 
   //2. Check if button is pressed
   if(){
     // Turn on LED
-    
+    digitalWrite(,);
   }
   else{
     // Turn off LED
-    
+    digitalWrite(,);
   }
+  delay(100);
 }

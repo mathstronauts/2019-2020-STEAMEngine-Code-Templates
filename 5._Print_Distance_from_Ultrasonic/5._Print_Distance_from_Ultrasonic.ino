@@ -13,5 +13,7 @@ void loop() {
   float distance = ultrasonicDistance(trig, echo);
   
   //2. Print distance
-  Serial.println();
+  Serial.println(distance);
+
+  delay(100);
 }

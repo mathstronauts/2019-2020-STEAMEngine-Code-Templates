@@ -8,8 +8,9 @@ void setup() {
 
 void loop() {
   //1. Read the state of the button
-  int button_state = digitalRead();
+  int button_state = digitalRead(button);
   
   //2. Print the state of the button
-  Serial.println();
+  Serial.println(button_state);
+  delay(100);
 }
